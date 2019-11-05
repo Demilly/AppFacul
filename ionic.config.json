@@ -1,0 +1,7 @@
+{
+  "name": "iloam",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

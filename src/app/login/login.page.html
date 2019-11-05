@@ -1,0 +1,47 @@
+<ion-content class="ion-padding" class="screenbackground ">
+  <form [formGroup]="formLogin">
+    <ion-grid class="flex-container">
+      <ion-row class="logo-row">
+        <ion-col size="12" class="logo-col ">
+          <div class="ion-text-center logo">
+            <!-- <img src="assets/imgs/logo-login.png" width="150px" height="39px" /> -->
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-item>
+            <ion-label position="floating">E-mail</ion-label>
+            <ion-input formControlName="email" type="text"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="12">
+          <ion-item >
+            <ion-label position="floating">Senha</ion-label>
+            <ion-input formControlName="senha" type="password"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-item lines="none">
+            <ion-label>Lembrar minha senha</ion-label>
+            <ion-checkbox slot="start" class="ck_lembrar_senha"></ion-checkbox>
+          </ion-item>
+        </ion-col>
+        <ion-col size="12">
+          <ion-button fill="outline" expand="block">
+            Entrar
+          </ion-button>
+        </ion-col>
+        <ion-col size="12">
+          <div text-center class="cadbutton">
+            <ion-item button>
+              <ion-label text-center>CADASTRAR</ion-label>
+            </ion-item>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>

@@ -1,0 +1,146 @@
+ion-header{
+    margin-top: 4.9%;
+
+    // margin-left: 9.6%;
+    // margin-right: 9.9%;
+}
+
+.icon-home-settings{
+    width: 17px;
+    height: 16.9px;
+    margin-right: 40px;
+}
+
+  .icon-header-home{
+    width: 40px;
+    height: 40px;
+    margin: 0 40px;
+  }
+
+  .icon-header-solicitar-home {
+    width: 116px;
+    height: 30px;
+  }
+
+  .icon-header-solicitar-home-filho {
+    width: 120px;
+    height: 30px;
+  }
+  
+  
+  .card-list-emprestimo{
+    width: 120%;
+    height: 75%;
+    background-color: #0e2742 !important;
+  }
+
+
+  .fonte{
+    font-family: Gilroy;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    
+  }
+
+  .fonte-titulo{
+   width: 175px;
+   height: 19px;
+    font-size: 16px;
+    font-weight: 150;
+    line-height: 1.25;
+    letter-spacing: 0.16px;
+    margin-bottom: 10px;
+  }
+
+  .fonte-dinheiro{
+    width: 150px;
+    height: 29px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.21;
+    letter-spacing: 0.24px;
+  }
+
+  .fonte-taxa-juros{
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.14px;
+    color: #38a890;
+  }
+  
+  .fonte-taxa-texto{
+    width: 100px;
+    height: 17px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.17;
+    letter-spacing: 0.12px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+ .retangulo-oferta-esc {
+    width: 120%;
+    height: 75%;
+    background-color: #0e2742 !important;
+  }
+
+    .fonte-oferta {
+        font-family: Gilroy !important;
+        text-align: left;
+        font-stretch: normal;
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .fonte-titulo-oferta-esc {
+        width: 245px;
+        height: 28px;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: 0.24px;
+        margin-left: 40px;
+        opacity: 0.5;
+      }
+
+    .titulo-slide-retangulo-oferta {
+        width: 245px;
+        height: 28px;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.17;
+        letter-spacing: 0.24px;
+      }
+    
+      .card-subtitle-oferta {
+        width: 87px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.11;
+        letter-spacing: 0.18px;
+      }
+    
+      .card-subtitle-valor-oferta {
+        width: 140px;
+        height: 32px;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 1.23;
+        letter-spacing: 0.26px;
+      }
+    
+    
+      .card-taxa-de-juros-oferta {
+        width: 150px;
+        height: 19px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.14;
+        letter-spacing: 0.14px;
+      }  
+      ion-item-option.itens-card-solicitar {
+          margin-top: 16px;
+          margin-bottom: 16px;
+          background-color: #cd9b41;
+      }
