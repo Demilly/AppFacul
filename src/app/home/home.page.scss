@@ -145,3 +145,22 @@ ion-header{
           margin-bottom: 16px;
           background-color: #cd9b41;
       }
+
+      .container {
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        -webkit-justify-content: center;
+        /* Safari */
+        justify-content: center;
+      }
+      
+      .item {
+        padding: 10px;
+      }
+      
+      img {
+        // width: 100%;
+        height: auto;
+        display: block;
+      }
