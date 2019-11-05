@@ -5,6 +5,10 @@ ion-header{
     // margin-right: 9.9%;
 }
 
+.footer-home {
+  color: #c78830;
+}
+
 .icon-home-settings{
     width: 17px;
     height: 16.9px;
@@ -164,3 +168,10 @@ ion-header{
         height: auto;
         display: block;
       }
+
+      p {
+        text-align: center;
+        color: #c78830;
+        font-size: 20px;
+      }
+
