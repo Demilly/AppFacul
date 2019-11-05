@@ -6,6 +6,7 @@ const routes: Routes = [
   { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
   { path: 'splash', loadChildren: './splash/splash.module#SplashPageModule' },
   { path: 'login', loadChildren: () => import('./login/login.module').then(m => m.LoginPageModule) },  { path: 'home-esc', loadChildren: './home-esc/home-esc.module#HomeEscPageModule' },
+  { path: 'mapa', loadChildren: './mapa/mapa.module#MapaPageModule' },
 
 ];
 
