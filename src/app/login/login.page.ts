@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { NavController, ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-login',
@@ -11,7 +12,10 @@ export class LoginPage implements OnInit {
   private formLogin: FormGroup;
 
   constructor(
-    private formBuilder: FormBuilder
+    private formBuilder: FormBuilder, 
+    private navCtrl: NavController,
+    private toastCtrl: ToastController
+
   ) { 
     this.formLogin = this.formBuilder.group({
       email: ['', Validators.compose([Validators.required, Validators.email])],
@@ -24,6 +28,23 @@ export class LoginPage implements OnInit {
 
   logar()
   {
+    if (this.formLogin.value.email == "admin@admin.com" && this.formLogin.value.senha == "123"){
+        window.localStorage.setItem("logado", "sim")
+        this.navCtrl.navigateRoot("home")
 
+    }
+    else {
+
+      this.presentToast()
+    }
+  
+  }
+  async presentToast() {
+    const toast = await this.toastCtrl.create({
+      message: 'Dados de login incorretos.',
+      duration: 2000,
+      color: "danger"
+    });
+    toast.present();
   }
 }
