@@ -45,7 +45,7 @@ ion-header{
     font-style: normal;
     text-align: left;
     color: rgba(255, 255, 255, 0.8);
-    
+    text-align: center;    
   }
 
   .fonte-titulo{
@@ -59,7 +59,8 @@ ion-header{
   }
 
   .fonte-dinheiro{
-    width: 150px;
+    text-align: center;
+    // width: 150px;
     height: 29px;
     font-size: 22px;
     font-weight: 800;

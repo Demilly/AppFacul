@@ -14,6 +14,87 @@
     <p>
       Escolha um desses problemas:
     </p>
+
+    <ion-slides pager="false" [options]="slideOpts">
+
+      <ion-slide>
+    <ion-list>
+      <ion-item-sliding>
+      <ion-item>
+        <ion-card class="card-list-emprestimo">  
+          <ion-card-content>
+            <!-- <p class="fonte fonte-titulo">Iluminação Publica </p>  -->
+            <p class="fonte fonte-dinheiro">Iluminação Pública</p>
+            <!-- <p class="fonte fonte-taxa-juros">2%  <span class="fonte fonte-taxa-texto">taxa de juros</span></p> -->
+          </ion-card-content>
+        </ion-card>      
+      </ion-item>
+      <ion-item-options side="end">
+          <ion-item-option class="itens-card-solicitar" (click)="unread(item)">Solicitar</ion-item-option>
+        </ion-item-options>
+      </ion-item-sliding>
+  
+      <ion-item-sliding>
+      <ion-item>
+          <ion-card class="card-list-emprestimo">  
+            <ion-card-content>
+              <!-- <p class="fonte fonte-titulo">Loja de Rações LTDA</p>  -->
+              <p class="fonte fonte-dinheiro">Saneamento Básico</p>
+              <!-- <p class="fonte fonte-taxa-juros">2,2%  <span class="fonte fonte-taxa-texto">taxa de juros</span></p> -->
+            </ion-card-content>
+          </ion-card>      
+        </ion-item>
+      <ion-item-options  side="end">
+          <ion-item-option class="itens-card-solicitar" (click)="unread(item)">Solicitar</ion-item-option>
+        </ion-item-options>
+      </ion-item-sliding>
+      
+      <ion-item-sliding>
+        <ion-item>
+            <ion-card class="card-list-emprestimo">  
+              <ion-card-content>
+                <!-- <p class="fonte fonte-titulo">Padaria Trigo</p>  -->
+                <p class="fonte fonte-dinheiro">Buraco na pista</p>
+                <!-- <p class="fonte fonte-taxa-juros">1,8% <span class="fonte fonte-taxa-texto">taxa de juros</span></p> -->
+              </ion-card-content>
+            </ion-card>      
+          </ion-item>
+          <ion-item-options side="end">
+              <ion-item-option class="itens-card-solicitar" (click)="unread(item)">Solicitar</ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+  
+        <ion-item-sliding>
+          <ion-item>
+              <ion-card class="card-list-emprestimo">  
+                <ion-card-content>
+                  <!-- <p class="fonte fonte-titulo">Pet Shop bicho Feliz</p>  -->
+                  <p class="fonte fonte-dinheiro">Falta de Água</p>
+                  <!-- <p class="fonte fonte-taxa-juros">2%  <span class="fonte fonte-taxa-texto">taxa de juros</span></p> -->
+                </ion-card-content>
+              </ion-card>    
+            </ion-item> 
+            <ion-item-options side="end">
+                <ion-item-option class="itens-card-solicitar" (click)="unread(item)">Solicitar</ion-item-option>
+            </ion-item-options>  
+        </ion-item-sliding>   
+        <ion-item-sliding>
+          <ion-item>
+              <ion-card class="card-list-emprestimo">  
+                <ion-card-content>
+                  <!-- <p class="fonte fonte-titulo">Pet Shop bicho Feliz</p>  -->
+                  <p class="fonte fonte-dinheiro">Telefone Úteis</p>
+                  <!-- <p class="fonte fonte-taxa-juros">2%  <span class="fonte fonte-taxa-texto">taxa de juros</span></p> -->
+                </ion-card-content>
+              </ion-card>    
+            </ion-item> 
+            <ion-item-options side="end">
+                <ion-item-option class="itens-card-solicitar" (click)="unread(item)">Solicitar</ion-item-option>
+            </ion-item-options>  
+        </ion-item-sliding>   
+    </ion-list>
+  </ion-slide>
+</ion-slides>
 </ion-content>
 <ion-footer>
   <ion-toolbar>
