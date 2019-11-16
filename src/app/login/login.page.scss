@@ -18,7 +18,9 @@ ion-checkbox {
   --background: #ffffff;
 }
 
-.native-input .sc-ion-input-md
-{
+.native-input .sc-ion-input-md {
+  color: #ffffff !important;
+}
+ion-input {
   color: #ffffff !important;
 }

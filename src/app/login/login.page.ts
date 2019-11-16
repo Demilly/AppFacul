@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { NavController, ToastController } from '@ionic/angular';
+import { CredenciaisDTO } from '../models/credenciais.dto';
 
 @Component({
   selector: 'app-login',
@@ -8,6 +9,12 @@ import { NavController, ToastController } from '@ionic/angular';
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage implements OnInit {
+
+  creds : CredenciaisDTO = {
+    email: "",
+    senha: ""
+  };
+
 
   private formLogin: FormGroup;
 
@@ -28,6 +35,7 @@ export class LoginPage implements OnInit {
 
   logar()
   {
+    console.log(this.creds);
     if (this.formLogin.value.email == "admin@admin.com" && this.formLogin.value.senha == "123"){
         window.localStorage.setItem("logado", "sim")
         this.navCtrl.navigateRoot("home")

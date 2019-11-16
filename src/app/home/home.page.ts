@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
+import { CredenciaisDTO } from '../models/credenciais.dto';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,6 @@ import { NavController } from '@ionic/angular';
 })
 export class HomePage implements OnInit{
  
-
     slideOpts = {
       initialSlide: 1,
       speed: 400
